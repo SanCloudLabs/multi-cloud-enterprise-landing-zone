@@ -10,7 +10,7 @@ terraform {
       version = "~> 5.0"
     }
   }
-  # A placeholder showing recruiters you understand secure state locking
+  
   backend "local" {
     path = "terraform.tfstate"
   }
