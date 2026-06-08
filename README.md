@@ -59,7 +59,7 @@ graph TD
 
 🛠️ Repository Structure
 The code is strictly decoupled into reusable, dry (Don't Repeat Yourself) Terraform modules.
-
+```text
 ├── .github/workflows/          # CI/CD pipelines for validation and planning
 │   └── terraform-lint-plan.yml
 ├── terraform/
@@ -75,7 +75,7 @@ The code is strictly decoupled into reusable, dry (Don't Repeat Yourself) Terraf
 │       ├── aws_vpc/            # VPC, Subnets, NAT Gateways, Secure Routing
 │       └── aws_outpost_stub/   # Hybrid-cloud compute configuration
 └── README.md
-
+```
 
 
 🔒 Implemented Key Features
