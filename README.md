@@ -20,7 +20,7 @@ The architecture focuses heavily on strict network isolation, zero-trust securit
 
 The landing zone is split across both major cloud providers to handle hybrid workloads, featuring a structured Hub-and-Spoke model in Azure and a secure VPC layout in AWS optimized for hybrid compliance.
 
-```mermaid
+
 graph TD
     %% Azure Hub-and-Spoke
     subgraph Azure Cloud Environment
